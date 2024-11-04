@@ -1,0 +1,83 @@
+#hero{
+    height: 540px;
+    width:100%;
+    background-color: #FFFAF0;
+ }
+ .card{
+    height:px;
+ 
+  }
+ .vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotete(180deg);
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: 65px;
+    color:#bbb;
+    font-weight: 40px;
+ }
+ .logo{
+    font-size:30px;
+    font-weight: bolder;
+ }
+ .logo span{
+    color: orangered;
+ }
+ .nav{
+    display: flex;
+    align-items: center;
+ }
+ h2{
+   text-align: center;
+ }
+ .menu{
+    list-style-type: none;
+    display: flex;
+    margin-right: 25px;
+    justify-content: right;
+    gap:15px;
+ }
+ .menu li{
+    margin:0;
+    padding: 0px 12px;
+ }
+ .dev-bg{
+    background-image: url("TYU.jpg");
+    background-position:center;
+    background-size:cover;
+    width:400px;
+    height:300px;
+    transform:translate(0%,-5%);
+ }
+ 
+ 
+ .dev{
+    background-image: url("img-removebg-preview.png");
+    background-position: center;
+    background-size:cover;
+    width:329px;
+    height:420px;
+    transform:translate(50%,0%);
+ }
+ .about-sec{
+    padding:12px;
+ }
+ .about-wrapper{
+    background-color:antiquewhite;
+ }
+ @media only screen and (max-width:600px){
+    
+ }
+ .about-sec{
+    padding:10px;
+    text-align: center;
+ }
+ .footer-bg{
+    padding: 30px 30px;
+    background-color: antiquewhite;
+ }
+ .footer-bg about-sec{
+    padding:30px;
+ }
+ button{
+    background-color:orangered;
+ }
